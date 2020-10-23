@@ -5,15 +5,16 @@ physics = int(input("Physics Exam Mark"))
 average = (maths + physics + chemistry)
 average
 AverageMark = average/3
+print(AverageMark)1
 if AverageMark < 40:
-    print("Fail")
+    print("Grade: Fail")
 elif AverageMark >=40 and AverageMark < 50:
-    print ("D")
+    print ("Grade: D")
 elif AverageMark >=50 and AverageMark < 60:
-    print("C")
+    print("Grade: C")
 elif AverageMark >=60 and AverageMark < 70:
-    print("B")
+    print("Grade: B")
 elif AverageMark >=70:
-    print("A")
-else: print("unknown")
+    print("Grade: A")
+else: print("Grade: unknown")
 

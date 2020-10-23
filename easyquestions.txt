@@ -1,1 +1,19 @@
+Grade Calculator question
+maths = int(input("Maths Exam Mark"))
+chemistry = int(input("Chemistry Exam Mark"))
+physics = int(input("Physics Exam Mark"))
+average = (maths + physics + chemistry)
+average
+AverageMark = average/3
+if AverageMark < 40:
+    print("Fail")
+elif AverageMark >=40 and AverageMark < 50:
+    print ("D")
+elif AverageMark >=50 and AverageMark < 60:
+    print("C")
+elif AverageMark >=60 and AverageMark < 70:
+    print("B")
+elif AverageMark >=70:
+    print("A")
+else: print("unknown")
 

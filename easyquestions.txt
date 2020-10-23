@@ -18,3 +18,20 @@ elif AverageMark >=70:
     print("Grade: A")
 else: print("Grade: unknown")
 
+ISBN question
+ISBN = [9,7,8,0,3,0,6,4,0,6,1,6]
+thirteen = 0
+lastdigit = 0
+finaldigit = 0
+for i in range(len(ISBN)):
+    if i %2 == 0:
+        thirteen += i
+    elif i %2 != 0:
+        thirteen += (i*3)
+        thirteen = lastdigit
+break
+(lastdigit)/10 = finaldigit
+print(finaldigit)          (SYNTAX INCORRECT)
+
+
+

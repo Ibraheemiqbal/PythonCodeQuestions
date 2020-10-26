@@ -36,3 +36,13 @@ finaldigit = thirteen %10
 lastdigit = 10 - finaldigit
 print(lastdigit)
 
+TimesTable
+first = {1,2,3,4,5,6,7,8,9,10}
+num = 0
+c=1
+for i in first:
+    print(num, "x", i, "=", num * i)
+    if num <= 10:
+        num += 1
+        if num > 10:
+            break
